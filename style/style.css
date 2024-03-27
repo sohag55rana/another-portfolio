@@ -9,6 +9,9 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 150px;
+    text-align: center;
+   
 }
 .nav-title{
     font-size: 45px;
@@ -40,4 +43,92 @@ nav a{
     border-radius: 5px;
     border: 0;
     background: rgb(253, 110, 10);
+}
+.header{
+    background-image: url('../images/header_bg.png') , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-color: rgb(255, 248, 243);
+    background-position: bottom right ,bottom left;
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 585px;
+}
+.banner-header{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.banner-greeting{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+.apon-pic{
+    width: 584px;
+    height: 676px;
+}
+main{
+    width: 1140px;
+    margin: 130px auto;
+    padding: 131px 157px; 
+}
+.about{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 131px 157px;
+}
+.section-head{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-info{
+    margin-right: 50px;
+    text-align: center;
+}
+.about-header{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 0;
+}
+.about-description{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #474747;
+    margin-top: 0;
 }
