@@ -214,9 +214,25 @@ hr{
 footer{
     display: flex;
     background: rgb(255, 248, 243);
-    padding: 130px 250px;
-    
+    padding: 130px 230px;
+    margin-top: 100px;
 }
 .footer-column{
+    width: 50%;
 
+}
+.contact input[type="text"] , .contact input[type="email"] , .contact textarea {
+    display: block;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    width: 100%;
+}
+.footer-description{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 117px;
 }
