@@ -152,15 +152,71 @@ main{
     background: rgb(255, 255, 255);
     padding: 33px;
     }
-    .skill-heading{
+.skill-heading{
     color: rgb(24, 24, 24);
     font-size: 20px;
     font-weight: 700;
     text-align: left;
     }
-    .skill-description{
+.skill-description{
     color: rgb(117, 117, 117);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     }
+    /* resume section */
+
+.resume-container{
+        display: flex;
+        gap: 50px;
+        width: 1140px;
+
+    }
+.resume-info{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    }
+.resume-title{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+.resume-skill{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.resume-description{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 511px;
+}
+hr{
+    width: 558px;
+    margin-right: 24px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background: rgb(255, 248, 243);
+    padding: 130px 250px;
+    
+}
+.footer-column{
+
+}
